@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+/*font-family: 'Russo One', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Russo+One&display=swap');
+
+/* font-family: 'Roboto Slab', serif;
+font-family: 'Russo One', sans-serif;   */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Comienza Header*/
+.navbar {
+   background-color: rgb(34, 236, 168);
+}
+
+a.navbar-brand {
+    color: blueviolet !important;
+    text-transform: capitalize;
+    font-family: 'Russo One', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+span {
+    color: brown;
+}
+
+.navbar-toggler i{
+    color: brown;
+    }
+
+.nav-link {
+    color: brown ! important;
+    padding-left: 5px !important;
+    font-family: 'Russo One', sans-serif;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: end;
+}
+/* Fin Header*/
+
+/* Comienza Galeria */
+h2 {
+    background-color: blue;
+    color:rgb(34, 236, 168);
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Russo One', sans-serif;
+    text-transform: capitalize;
+    padding: 10px;
+    margin: 0;
+}
+
+.galeria {
+    height: 400px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 100px);
+}
+
+.item {
+    border: 5px double brown;
+    background-size: cover;
+    background-position: center;
+}
+
+.item1 {
+    background-image: url(../imagenes/frutillas.jpg);
+}
+
+.item2 {
+    background-image: url(../imagenes/verduras.jpg);
+}
+
+.item3 {
+    background-image: url(../imagenes/vino.jpg);
+}
+
+.item4 {
+    background-image: url(../imagenes/pandulce.jpg);
+}
+
+/* Fin de Galeria, aún incompleta*/
+
+/* Abre el footer */
+footer {
+    background-color: brown ;
+    color: aquamarine;
+    padding-top: 15px;
+}
+
+footer p {
+    padding-right: 20px;
+    text-align: right;
+    text-transform: capitalize;
+    font-family:'Roboto Slab', serif;
+    font-size: 16px;
+}
+
+footer .redes {
+    margin-top: 10px;
+}
+
+footer a {
+    text-align: left;
+    font-size: 30px;
+    color: aqua;
+    text-align: left;
+    padding-left:15px;
+}
+/* Finaliza footer */
+
+/*Comienza MediaQueri
+
+@media only screen and (min-width: 750px) {
+        footer p
+        { 
+        font-size 30px
+        }
+    }
+
+
+
+
+/*Se cierra MediaQueri*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Lo comento por si algo me sirve pero seguramente deba borrar todo
+
+header {
+    background-color: rgb(43, 226, 113);
+    display: flex;
+    align-items: center;
+}
+
+div {
+color: brown;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+div span {
+    color: blueviolet;
+    text-align: left;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+
+nav ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    color: brown;
+    text-decoration: none;
+} */
+
