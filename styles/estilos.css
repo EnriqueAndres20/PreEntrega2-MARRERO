@@ -1,217 +1,156 @@
-@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
-
-/*font-family: 'Russo One', sans-serif; */
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Russo+One&display=swap');
-
-/* font-family: 'Roboto Slab', serif;
-font-family: 'Russo One', sans-serif;   */
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Russo+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Comienza Header*/
 .navbar {
-   background-color: rgb(34, 236, 168);
+  background-color: rgb(34, 236, 168);
 }
 
 a.navbar-brand {
-    color: blueviolet !important;
-    text-transform: capitalize;
-    font-family: 'Russo One', sans-serif;
-    display: flex;
-    justify-content: space-between;
-    font-size: 18px;
+  color: blueviolet !important;
+  text-transform: capitalize;
+  font-family: "Russo One", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
 }
 
 span {
-    color: brown;
+  color: brown;
 }
 
-.navbar-toggler i{
-    color: brown;
-    }
+.navbar-toggler i {
+  color: brown;
+}
 
 .nav-link {
-    color: brown ! important;
-    padding-left: 5px !important;
-    font-family: 'Russo One', sans-serif;
-    font-size: 16px;
-    text-transform: capitalize;
-    display: flex;
-    justify-content: end;
+  color: brown !important;
+  padding-left: 5px !important;
+  font-family: "Russo One", sans-serif;
+  font-size: 16px;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: end;
 }
-/* Fin Header*/
 
-/* Comienza Galeria */
 h2 {
-    background-color: blue;
-    color:rgb(34, 236, 168);
-    text-align: center;
-    font-size: 16px;
-    font-family: 'Russo One', sans-serif;
-    text-transform: capitalize;
-    padding: 10px;
-    margin-bottom: 0;
+  background-color: blue;
+  color: rgb(34, 236, 168);
+  text-align: center;
+  font-size: 16px;
+  font-family: "Russo One", sans-serif;
+  text-transform: capitalize;
+  padding: 10px;
+  margin-bottom: 0;
 }
 
 .galeria {
-    /*height: 800px;*/
-    width: 100%;
-    background-color: black;
-    display: grid;
-    grid-template-columns:repeat(2, 1fr);
-    grid-template-rows: repeat(3, 200px);
-    grid-template-areas:
-    "img3 img1"
-    "img3 img4"
-    "img2 img4";
-    grid-gap: 10px;
+  width: 100%;
+  background-color: black;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 200px);
+  grid-template-areas: "img3 img1" "img3 img4" "img2 img4";
+  grid-gap: 10px;
 }
 
 .item {
-    border: 5px double brown;
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
+  border: 5px double brown;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
 }
 
 .item1 {
-    grid-area:img1;
-    background-image: url(../imagenes/frutillas.jpg);
+  grid-area: img1;
+  background-image: url(../imagenes/frutillas.jpg);
 }
 
 .item2 {
-    grid-area:img2;
-    background-image: url(../imagenes/verduras.jpg);
+  grid-area: img2;
+  background-image: url(../imagenes/verduras.jpg);
 }
 
 .item3 {
-    grid-area: img3;
-    background-image: url(../imagenes/vino.jpg);
+  grid-area: img3;
+  background-image: url(../imagenes/vino.jpg);
 }
 
 .item4 {
-    grid-area: img4;
-    background-image: url(../imagenes/pandulce.jpg);
+  grid-area: img4;
+  background-image: url(../imagenes/pandulce.jpg);
 }
 
-/* Fin de Galeria*/
-
-/* Abre el footer */
 footer {
-    background-color: brown ;
-    color: aquamarine;
-    padding-top: 15px;
+  background-color: brown;
+  color: aquamarine;
+  padding-top: 15px;
 }
 
 footer p {
-    padding-right: 20px;
-    text-align: right;
-    text-transform: capitalize;
-    font-family:'Roboto Slab', serif;
-    font-size: 16px;
+  padding-right: 20px;
+  text-align: right;
+  text-transform: capitalize;
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
 }
 
 footer .redes {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 footer a {
-    text-align: left;
-    font-size: 30px;
-    color: aqua;
-    text-align: left;
-    padding-left:15px;
+  text-align: left;
+  font-size: 30px;
+  color: aqua;
+  text-align: left;
+  padding-left: 15px;
 }
-/* Finaliza footer */
-
-/* Hoja de SUGERENCIAS */
 
 h3 {
-    background-color: blue;
-    color:rgb(34, 236, 168);
-    text-align: center;
-    font-size: 22px;
-    font-family: 'Roboto Slab', serif;
-    text-transform: capitalize;
-    padding: 10px;
-    margin-bottom: 0;
+  background-color: blue;
+  color: rgb(34, 236, 168);
+  text-align: center;
+  font-size: 22px;
+  font-family: "Roboto Slab", serif;
+  text-transform: capitalize;
+  padding: 10px;
+  margin-bottom: 0;
 }
 
 div span {
-    background-color: aquamarine;
-    color: blue;
-    text-transform: capitalize;
-    font-size: 16px;
+  background-color: aquamarine;
+  color: blue;
+  text-transform: capitalize;
+  font-size: 16px;
 }
 
-/* Fin de sugerencias */
-
-/* Hoja de NOSOTROS con texto e imagen */
-
 .conocenos {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .nleft {
-    width: 100%;
-    min-height: 250px;
-    background-image: url(../imagenes/mercadito\ 2.jpg);
-    background-size: cover;
-    background-position: center;
+  width: 100%;
+  min-height: 250px;
+  background-image: url(../imagenes/mercadito\ 2.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .nright {
-    width: 100%;
-    background-color: rgb(42, 147, 165);
+  width: 100%;
+  background-color: rgb(42, 147, 165);
 }
 
 .nright p {
-    width: 100%;
-    color: aqua;
-    text-shadow: 0.1em 0.1em #333;
-    font-family: 'Roboto Slab', serif;
-    padding: 22px;
-}
-
-/* Termina Hoja NOSOTROS */
-
-/*Comienza MediaQueri */
-
-
-/* Esta era para el INICIO pero no la pude hacer marchar
-@media only screen and (min-width: 750px) {
-        footer p
-        { 
-        font-size 30px
-        }
-    } */
-
-/* MQ para hoja NOSOTROS */
-
-/* Tampoco pude hacer marchar esta
-
-@media only screen and (min-width 480px){
-    .conocenos{
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(4, 200px);
-    }
-    .conocenos .nleft {
-        width: 60%;
-    }
-
-    .conocenos .nright {
-        width: 40%;
-    }
-}
-
-
-
-/* Termino hoja NOSOTROS */
-
-/*Se cierra MediaQueri*/
+  width: 100%;
+  color: aqua;
+  text-shadow: 0.1em 0.1em #333;
+  font-family: "Roboto Slab", serif;
+  padding: 22px;
+}/*# sourceMappingURL=estilos.css.map */
